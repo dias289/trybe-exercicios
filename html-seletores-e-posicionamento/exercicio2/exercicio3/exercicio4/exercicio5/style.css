@@ -23,4 +23,21 @@ li em {
 #lista-programacao li:not(:nth-child(n + 4)) {
     color: blue;
   }
-
+.allied li a:hover {
+    font-weight: bolder;
+}
+.allied li a[href*="stackoverflow"] {
+    color: orange;
+}
+.allied li a[href*="w3schools"] {
+    color: green;
+}
+.allied li a[href*="mozilla"] {
+    color: black;
+}
+.allied li a[href*="devdocs"] {
+    color: yellow;
+}
+.allied li a[href*="trybe"] {
+    color: green;
+}
